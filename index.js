@@ -21,6 +21,8 @@ function appendKitten(name) {
   return [...kittens, name]
 }
 
-function prependKitten
+function prependKitten(name) {
+  return [name, ...kittens]
+}
 var kittens = ['Milo', 'Otis', 'Garfield']
 appendKitten('Broom')
