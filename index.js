@@ -30,7 +30,7 @@ function removeLastKitten(name) {
 }
 
 function removeFirstKitten(name) {
-  return kitten.slice(1)
+  return kittens.slice(1)
 }
 var kittens = ['Milo', 'Otis', 'Garfield']
 appendKitten('Broom')
